@@ -14,12 +14,14 @@ public class Main {
         ILive transmisiuneFacebook= transmisiuneOriginala.clone();
         ((TransmisiuneLive) transmisiuneFacebook).setPlatforma("Facebook");
         transmisiuneFacebook.addComment("Comentariu pentru Facebook");
+        transmisiuneFacebook.addComment("Alt comentariu pentru Facebook");
         transmisiuneFacebook.display();
 
         //varianta 2 - propusa de intellij
         TransmisiuneLive transmisiuneTwitch= (TransmisiuneLive) transmisiuneOriginala.clone();
         transmisiuneTwitch.setPlatforma("Twitch");
         transmisiuneTwitch.addComment("Comentariu pentru Twitch");
+        transmisiuneTwitch.addComment("Alt comentariu pentru Twitch");
         transmisiuneTwitch.display();
 
     }

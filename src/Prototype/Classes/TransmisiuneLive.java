@@ -21,10 +21,14 @@ public class TransmisiuneLive implements ILive{
 
     @Override
     public ILive clone() {
-        TransmisiuneLive transmisiuneClonata = new TransmisiuneLive(this.evenimentSportiv, this.platforma);
-        //deep copy pentru lista de comentarii
-        transmisiuneClonata.listaComentarii=new ArrayList<>();
-        return transmisiuneClonata;
+        try {
+            TransmisiuneLive transmisiuneClonata = (TransmisiuneLive) super.clone();
+            //deep copy pentru lista de comentarii
+            transmisiuneClonata.listaComentarii = new ArrayList<>();
+            return transmisiuneClonata;
+        }catch (CloneNotSupportedException e){
+            throw new RuntimeException("Eroare la clonare", e);
+        }
     }
 
     @Override
