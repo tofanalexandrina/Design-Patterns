@@ -10,19 +10,22 @@ public class Main {
         transmisiuneOriginala.addComment("Comentariu 2 Youtube");
         transmisiuneOriginala.display();
 
-        //varianta 1 - ar respecta mai mult open-closed
         ILive transmisiuneFacebook= transmisiuneOriginala.clone();
         ((TransmisiuneLive) transmisiuneFacebook).setPlatforma("Facebook");
         transmisiuneFacebook.addComment("Comentariu pentru Facebook");
         transmisiuneFacebook.addComment("Alt comentariu pentru Facebook");
         transmisiuneFacebook.display();
 
-        //varianta 2 - propusa de intellij
-        TransmisiuneLive transmisiuneTwitch= (TransmisiuneLive) transmisiuneOriginala.clone();
-        transmisiuneTwitch.setPlatforma("Twitch");
+        ILive transmisiuneTwitch= transmisiuneOriginala.clone();
+        ((TransmisiuneLive)transmisiuneTwitch).setPlatforma("Twitch");
         transmisiuneTwitch.addComment("Comentariu pentru Twitch");
         transmisiuneTwitch.addComment("Alt comentariu pentru Twitch");
         transmisiuneTwitch.display();
+
+        ILive transmisiuneOriginala2=new TransmisiuneLive("XFactor", "YouTube");
+        transmisiuneOriginala2.addComment("Comentariu 1 YouTube");
+        transmisiuneOriginala2.addComment("Comentariu 2 Youtube");
+        transmisiuneOriginala2.display();
 
     }
 }
