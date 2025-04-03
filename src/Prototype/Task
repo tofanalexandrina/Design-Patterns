@@ -1,0 +1,11 @@
+ 3p. Ați creat o aplicație mobilă ce vă permite să transmiteți live evenimente sportive.
+ Realizați faptul că cu cât evenimentul este transmis live pe mai multe platforme, cu atât durează mai
+ mult să porniți live-ul, cu toate că feed-ul live este același.
+ Știind că o transmisiune live implementează interfața Live, utilizați un design pattern ce rezolvă
+ problema de performanță. Țineți cont și de faptul că odată create, transmisiunile live pot avea
+ detalii diferite (exemplu: altă listă de comentarii).
+
+ 1.5p. Testați implementarea prin crearea a 3 transmisiuni live aferente aceluiași eveniment sportiv pe
+ 3 platforme de streaming diferite. Demonstrați faptul că adăugarea unui comentariu pe una dintre
+ platforme nu va face ca acesta să apară pe altă platformă.
+
