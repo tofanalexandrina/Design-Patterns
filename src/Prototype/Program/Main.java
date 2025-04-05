@@ -22,10 +22,5 @@ public class Main {
         transmisiuneTwitch.addComment("Alt comentariu pentru Twitch");
         transmisiuneTwitch.display();
 
-        ILive transmisiuneOriginala2=new TransmisiuneLive("XFactor", "YouTube");
-        transmisiuneOriginala2.addComment("Comentariu 1 YouTube");
-        transmisiuneOriginala2.addComment("Comentariu 2 Youtube");
-        transmisiuneOriginala2.display();
-
     }
 }
