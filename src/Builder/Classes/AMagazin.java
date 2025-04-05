@@ -18,6 +18,6 @@ public abstract class AMagazin {
         this.podea = podea;
     }
 
-    public void addDecoratiuni(IDecoratiuni decoratiune){}
+    public void addDecoratiuni(IDecoratiuni decoratiune){};
     public void display(){}
 }
