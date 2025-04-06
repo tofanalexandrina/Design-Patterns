@@ -1,0 +1,16 @@
+7p. În cadrul aplicației de gestiune a jucătorilor din cadrul unui club sportiv, se dorește implementarea
+unui modul de înregistrare de jucătorilor și gestiune a procesului de pregătire sportivă și testare
+anti-doping. Se cunoaște faptul că procesul de înregistrare a unui nou jucător în cadrul clubului
+sportiv este un proces ce implică un consum mare de timp din cauza faptului că, pentru fiecare
+sportiv nou, există un set predefinit de antrenamente la care acesta trebuie să aibă acces în
+funcție de tipul de jucător și o listă de medicamente interzise la care el este testat de anti-doping.
+Dacă, pe parcurs, un jucător depistează un nou tip de medicament interzis, atunci toți jucătorii
+trebuie să cunoască această observație nouă. Fiecare jucător își poate actualiza propria listă de
+antrenamente în funcție de evoluția sa sportivă. Tipurile de jucător se pot referi la poziții diferite
+în funcție de sportul pe care îl practică (portar, atacant, mijlocaș, etc.) sau la tipul de sport
+practicat (fotbal, handbal, tenis, etc.).
+
+3p. Să se testeze soluția prin înregistrarea unui număr de minim trei jucători de tipuri diferite din care
+doi de același tip. Să se simuleze procesul de antrenament și testare anti-doping. Pentru cel puțin
+un jucător se va adăuga un nou medicament interzis și se va actualiza lista de antrenamente
+personale.
