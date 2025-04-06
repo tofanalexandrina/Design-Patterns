@@ -1,6 +1,6 @@
 package FactoryMethod.Classes;
 
-public class AirQualityReportDecision {
+public class AirQualityReportFactory {
     public static AAirQualityReportAbstractFactory alegeRaport(int pm2_5){
         if(pm2_5>=0 && pm2_5<=30){
             return new RaportAerCuratFactoryReport();
