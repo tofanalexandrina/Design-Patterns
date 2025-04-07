@@ -8,7 +8,7 @@ public class Cuptor {
     private List<Preparat>listaPreparate = new ArrayList<>();
     private int gradeMaxime;
 
-    public Cuptor(int id, int gradeMaxime) {
+    Cuptor(int id, int gradeMaxime) {
         this.id = id;
         this.gradeMaxime=gradeMaxime;
     }
