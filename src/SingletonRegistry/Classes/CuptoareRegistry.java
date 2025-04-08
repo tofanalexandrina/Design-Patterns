@@ -33,7 +33,7 @@ public class CuptoareRegistry {
 
     public static void afisareListaCuptoare(){
         for(Cuptor c: listaCuptoare.values()){
-            System.out.println(c.toString());
+            System.out.println(c);
         }
     }
 
