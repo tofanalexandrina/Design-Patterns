@@ -1,0 +1,5 @@
+Realizează un sistem de personalizare pentru pizza, unde să poți adăuga diverse opțiuni
+(cum ar fi margine cu brânză, toppinguri picante, etc.) și să poți calcula prețul total
+în funcție de aceste modificări.
+Soluția ta trebuie să fie flexibilă, astfel încât să poți combina mai multe opțiuni de personalizare
+fără a modifica clasa de bază a pizzei.
