@@ -1,0 +1,6 @@
+O companie rezultată din fuziunea a două firme trebuie să implementeze o metodă de analiză comună pentru
+clienți, dar metodele existente au interfețe incompatibile.
+Firma A evaluează clienții pe baza costului total al evenimentelor(int).
+Firma B evaluează clienții pe baza unui obiect de tip Client.
+Realizează un Adapter care să permită folosirea evaluării firmei A și pentru clienții firmei B,
+fără a modifica clasele existente.
