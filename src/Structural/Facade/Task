@@ -1,0 +1,6 @@
+Se doreste realizarea unui sistem pentru organizarea evenimentelor intr-un restaurant,
+care sa permita gestionarea bucatarilor si a salilor de evenimente. Sistemul trebuie sa
+poata verifica rapid daca exista un nr suficient de bucatari disponibili pentru o data
+specificata si daca salile sunt libere, fara a accesa direct fiecare componenta a sistemului.
+E important ca aceasta verificare sa fie simpla si intuitiva, fara a expune complexitatea interna
+a subsistemelor.
