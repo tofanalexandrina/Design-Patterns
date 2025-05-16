@@ -1,0 +1,4 @@
+Realizează o structură de meniu pentru un restaurant, unde fiecare secțiune
+(ex: bauturi, pizza, paste) poate conține atât produse individuale, cât și subsecțiuni.
+Structura trebuie să permită adăugarea și eliminarea dinamică de secțiuni și produse, precum și
+afișarea întregii ierarhii de meniu.
