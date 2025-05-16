@@ -1,0 +1,10 @@
+Un restaurant dorește să optimizeze procesul de tipărire a bonurilor,
+folosind diverse formate de printare (ex. format simplu, format cu detalii, format cu logo).
+Deoarece tipărirea bonurilor este o operație frecventă, se dorește ca aceste formate să fie
+reutilizate pentru a economisi resurse de memorie.
+Realizați o soluție care să permită partajarea instanțelor pentru formatele de printare,
+având în vedere că informațiile despre fiecare bon (ex. număr masă, cost total) sunt unice pentru
+fiecare bon în parte.
+
+intrinsec - mesajul printat pe bon
+extrinsec - bonul
