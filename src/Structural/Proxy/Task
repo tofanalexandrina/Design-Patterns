@@ -1,0 +1,4 @@
+Un organizator de petreceri dorește să controleze accesul la evenimente în funcție de vârstă.
+La anumite evenimente este permis accesul doar pentru persoanele de peste 18 ani.
+Realizați o aplicație care să gestioneze listele de invitați, să adauge participanți și să verifice
+vârsta acestora înainte de a-i include pe lista finală.
