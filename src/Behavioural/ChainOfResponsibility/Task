@@ -1,0 +1,13 @@
+La un restaurant, comenzile sunt preluate inițial de ospătar.
+Dacă ospătarul consideră că o comandă este prea complexă pentru a fi gestionată de el,
+aceasta trebuie transmisă bucătarului.
+Dacă sunt introduse alte roluri în procesul de preluare a comenzilor (de exemplu, manager),
+sistemul trebuie să fie ușor extensibil.
+
+Implementați o ierarhie de clase pentru a crea un lanț de responsabilitate pentru procesarea
+comenzilor într-un restaurant.
+Fiecare angajat trebuie să proceseze comenzile în funcție de gradul de complexitate al acestora.
+Dacă un angajat nu poate prelua comanda, aceasta trebuie transmisă automat următorului angajat din lanț,
+dacă există.
+Demonstrați funcționarea sistemului prin crearea unor comenzi de diverse grade de complexitate și
+procesarea acestora în lanțul definit.
