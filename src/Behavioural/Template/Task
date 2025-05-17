@@ -1,0 +1,5 @@
+O companie de asigurări vrea să implementeze un sistem standardizat pentru evaluarea daunelor.
+Fiecare tip de daună (de exemplu, daune auto, daune bucătărie, daune imobiliare) are o procedură fixă,
+dar include și pași specifici în funcție de tipul de daună.
+Sistemul trebuie să permită extinderea ușoară pentru adăugarea altor tipuri de daune în viitor,
+fără a schimba structura generală a procesului de evaluare.
