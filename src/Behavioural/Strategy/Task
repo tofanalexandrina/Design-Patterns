@@ -1,0 +1,14 @@
+Un restaurant își dorește să implementeze un sistem care să faciliteze alegerea meniurilor
+pentru clienți în funcție de diverse criterii, cum ar fi numărul minim de calorii sau cantitatea
+minimă de carbohidrați.
+Sistemul trebuie să permită schimbarea modului de selecție a meniului fără a modifica structura internă
+a meniurilor deja existente.
+Restaurantul are nevoie de o soluție care să fie flexibilă și extensibilă, astfel încât să poată adăuga
+noi criterii de selecție pe măsură ce apar preferințe noi ale clienților.
+
+Sistemul trebuie să includă:
+O modalitate de a defini meniuri cu proprietăți precum denumire, număr de calorii și număr de carbohidrați.
+O metodă pentru a alege cel mai potrivit meniu pe baza unui criteriu configurabil, fără a modifica meniurile.
+Posibilitatea de a seta și schimba strategia de selecție la runtime, în funcție de preferințele clienților.
+Sistemul trebuie să fie ușor de extins pentru a adăuga strategii noi (ex. meniu cu cel mai mic preț,
+meniu cu cel mai mic timp de preparare).
