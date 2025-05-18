@@ -1,0 +1,11 @@
+5p. În cadrul unui spital, este permis accesul vizitatorilor doar dacă aceștia dețin o scrisoare de
+acceptare din partea medicului curent al pacientului vizitat. Suplimentar, odată cu apariția unui
+număr mare de cazuri de infectare cu virusul Covid, intrarea în spital este permisă doar dacă
+vizitatorii sunt echipați corespunzător cu haine de protecție oferite de spital. Astfel, când se
+strânge un număr de minim 5 vizitatori în sala de așteptare, personalul medical îi echipează pe
+vizitatori și le permite accesul în saloane pentru a vizita pacienții. Se dorește implementarea unui
+modul intermediar ce permite accesul în saloane conform noilor restricții impuse. Implementarea
+trebuie să țină cont de interfața ISpital primită.
+
+3p. Pattern-ul este testat în main() prin crearea unui număr de minim 7 vizitatori care doresc să intre
+în saloanele cu pacienți.
