@@ -31,6 +31,6 @@ public class SpitalProxy implements ISpital{
 
     @Override
     public void permiteAcces(Vizitator v) {
-        adaugaVizitator(v);
+            adaugaVizitator(v);
     }
 }
