@@ -1,0 +1,14 @@
+5p. În cadrul spitalului, în unitatea de primiri urgențe, există un protocol general valabil format dintr
+un număr fix de pași pe care orice urgență apărută trebuie să îl urmeze. Ca prim pas sunt
+verificate semnele vitale ale pacientului. Dacă semnele vitale nu indică suspiciuni grave, atunci
+este verificat centralizatorul de programări a medicilor de familie pentru a genera cea mai
+apropiată programare disponibilă. Dacă semnele vitale indică suspiuni grave, atunci se intervine
+printr-o echipă de medici pentru a stabiliza pacientul. Ulterior, se verifică disponibilitatea unui
+loc în spital pentru internare. Dacă nu există locuri libere, atunci se fac căutări la cele mai
+apropiate spitale de stat. Acest protocol este folosit și de către spitalele private însă, în acest caz,
+semnele vitale ce indică suspiciuni grave conduc la chemarea unei echipe externe de medici
+pentru stabilizarea pacientului. Să se implementeze acest protocol în cadrul preluării unui nou
+caz medical de către spitalele de stat și privat.
+
+3p. Să se testeze soluția implementată prin apelul șablonului de preluare caz medical nou de către un
+spital de stat și unul privat.
