@@ -1,0 +1,12 @@
+9p. S-a observat că, atunci când conexiunea la internet este slabă, încărcarea resurselor unei pagini
+web se realizează într-un timp foarte mare. Astfel, s-a luat decizia optimizării acestui proces prin
+crearea unei filtrări pe elementele încărcare. O pagină web este reprezentată de o listă de obiecte
+tip Item (paragrafe, imagini, etc). Filtrarea este formată din mai multe etape precum: eliminarea
+obiectelor tip imagine, schimbarea setărilor paragrafelor prin reducerea doar la culoare negru,
+fără alte setări precum bold, italic, etc. Se cunoaște faptul că aceste etape pot fi interschimbate
+și, de asemenea, că se pot adăuga filtrări suplimentare în cazul în care prezenta implementare
+nu atinge optimul dorit. Să se realizeze modulul ce implementează funcționalitățile dorite ținând
+cont de interfețele primite.
+
+3p. Pattern-ul este testat în main() prin definirea unui număr de minim 2 obiecte de tip pagină web
+și transformarea lor pe baza fluxului de filtrări propus.
