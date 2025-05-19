@@ -1,0 +1,9 @@
+5p. În cadrul unei aplicații web de tip comerț electronic, utilizatorul are opțiunea de a selecta tehnica
+de vizualizare a produselor (IProdus) din cadrul magazinului. Astfel, acesta poate opta între:
+afișare produse în ordine crescătoare preț, descrescătoare preț, afișare doar a produselor care
+au cel puțin o recenzie. Să se implementeze modulul ce permite integrarea acestei opțiuni de
+vizualizare a listei de produse ținându-se cont de faptul că, în timp, se pot adăuga noi tehnici de
+vizualizare puse la dispoziție de către dezvoltatorii web.
+
+3p. Să se testeze implementarea prin crearea unui utilizator și setarea a cel puțin 2 opțiuni de
+vizualizare a listei de produse din magazin.
