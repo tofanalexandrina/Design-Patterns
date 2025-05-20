@@ -4,5 +4,4 @@ package Structural.Proxy.Clase;
 public interface IPetrecere {
     //requests()
     public void adaugaParticipant(Client c);
-    public void afisareProgram();
 }

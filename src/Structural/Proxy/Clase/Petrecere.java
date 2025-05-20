@@ -21,7 +21,4 @@ public class Petrecere implements IPetrecere{
         System.out.println("Clientul "+c+" a fost adaugat la petrecere.");
     }
 
-    @Override
-    public void afisareProgram() {
-    }
 }

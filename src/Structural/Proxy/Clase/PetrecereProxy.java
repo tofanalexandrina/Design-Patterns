@@ -17,9 +17,4 @@ public class PetrecereProxy implements IPetrecere{
             System.out.println("Clientul "+c.getNume()+" nu are varsta minima de 18 ani.");
         }
     }
-
-    @Override
-    public void afisareProgram() {
-        this.petrecere.afisareProgram();
-    }
 }
