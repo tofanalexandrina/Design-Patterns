@@ -20,17 +20,10 @@ public class SpitalProxy implements ISpital{
 
             if (salaAsteptare.size() >= 5) {
                 System.out.println("Echipare vizitatori.");
-                for (Vizitator vizitator : salaAsteptare) {
-                    spital.permiteAcces(vizitator);
-                }
                 salaAsteptare.clear();
                 System.out.println("Acces permis pentru grup.");
             }
         }
     }
 
-    @Override
-    public void permiteAcces(Vizitator v) {
-            adaugaVizitator(v);
-    }
 }

@@ -12,16 +12,12 @@ public class Spital implements ISpital{
 
     @Override
     public void adaugaVizitator(Vizitator v) {
-        listaVizitatori.add(v);
-        System.out.println(v.getNume() + " a fost adaugat in spital.");
-    }
-
-    @Override
-    public void permiteAcces(Vizitator v) {
         if(v.getAreScrisoareAcceptare()) {
+            listaVizitatori.add(v);
             System.out.println(v.getNume() + " are scrisoare de acceptare. Este permis accesul in spital.");
         }else{
             System.out.println(v.getNume() + " nu are scrisoare de acceptare. Nu este permis accesul in spital.");
         }
     }
+
 }

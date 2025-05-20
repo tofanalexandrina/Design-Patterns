@@ -21,13 +21,13 @@ public class Main {
 
         System.out.println("Primire vizitatori inainte de Proxy:");
         for (Vizitator v : vizitatori) {
-            spital.permiteAcces(v);
+            spital.adaugaVizitator(v);
         }
 
         ISpital spitalProxy=new SpitalProxy(spital);
         System.out.println("Primire vizitatori dupa Proxy:");
         for (Vizitator v : vizitatori) {
-            spitalProxy.permiteAcces(v);
+            spitalProxy.adaugaVizitator(v);
         }
     }
 
